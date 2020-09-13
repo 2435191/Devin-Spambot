@@ -2,10 +2,10 @@ import selenium
 from selenium import webdriver
 
 URL = "https://iqconnect.lmhostediq.com/iqextranet/EsurveyForm.aspx?__cid=CA22DN&__sid=100088&__crop=15548.37359788.2764358.1492115&fbclid=IwAR0N8_c0cAHi4IRvTkbxq7OVb4lMQ08hG91XWH1Mm9C4srf6oHjZsXmjwnM"
-chromedriver_path = "/Users/eab06/Desktop/WJB/PythonProjects/Devin Nunes/chromedriver"
+chromedriver_path = "/your/path/to/chromedriver"
 
 
-driver = webdriver.Chrome(chromedriver_path) # Or just have it in your PATH variable / equivalent for non-Mac users
+driver = webdriver.Chrome(chromedriver_path) # Or just have it in your PATH variable / whatever the equivalent is for non-Mac users
 driver.get(URL)
 
 
